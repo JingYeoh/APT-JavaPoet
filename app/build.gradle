@@ -28,5 +28,5 @@ dependencies {
     compile rootProject.ext.dependencies.appcompatV7
     compile rootProject.ext.dependencies.appcompatV4
 
-    compile project(':compile_apt')
+    compile project(':compiler')
 }

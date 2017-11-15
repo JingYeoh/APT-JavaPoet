@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  *         Blog http://blog.justkiddingbaby.com
  */
 
-@Target({ElementType.FIELD, ElementType.TYPE})
+@Target({ElementType.TYPE})
 @Retention(RetentionPolicy.CLASS)
 public @interface HelloAPT {
     String value() default "hello apt";
